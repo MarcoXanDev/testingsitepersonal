@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Marco Dev - Site Pessoal</title>
+</head>
+<body>
+    
+    <!--ALA nav-->
+
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+        <button class="navbar-burger"  onclick="toggleMenuOpen()">
+           <span class="material-icons">menu</span>
+        </button>
+
+        <h1 style="color: #fafafafa" class="navbar-title">MARCO.DEV</h1>
+        <nav class="navbar-menu">
+            <a href="#home" type="button">HOME</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#services">CONTATO</a>
+
+        </nav>
+
+        
+
+        <script type="text/javascript">
+          var toggleMenuOpen = function toggleMenuOpen(){
+            document.body.classList.toggle("open"); 
+          } 
+        </script>
+    </nav>
+
+    <!--HEADER-->
+
+    <section id="home" class="main">
+        <div class="center">
+            <div class="textoHeader">
+                <h1>SEJA BEM VINDO,</h1>
+                <p>Me chamo Marco Antônio e atualmente sou aspirante a Developer FrontEnd. <Br>Estou no primeiro semestre de Tecnologia em Análise e Desenvolvimento de Sistemas.</p>
+                    <a href="#aboutme"  > <button class="button1">DESCUBRA MAIS</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--ALA SOBRE MIM-->
+
+    <main>
+        <div id="sobre" class="containerInfo">
+            <div class="infoText">
+               <h1>SOBRE MIM</h1>
+
+                               <img src="1678385753869.jpg" alt="Marco - Profile Pic" alt="Marco - PIC"> 
+               <P>Me chamo Marco Antônio Mendes dos Santos, tenho 18 anos e estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas no Centro Universitário Integrado (CM-PR). Quando era criança, fui diágnosticado com uma doença "rara" chamada púrpura, onde apareciam milhares de manchas em minha pele. Foi ai, que iniciei meu contato com a tecnologia. Meu primeiro contato foram com consoles, já que tinha que ficar em constante observação, a tecnologia era minha grande amiga. Me apaixonei por programação após ver as infinitas possibilidades que temos independente da área de programação que trabalhamos, infinitas maneiras de viver dentro e fora da tecnologia. Espero que possamos trabalhar juntos e desenvolver a mim mesmo quanto a SUA empresa! </P>
+               <p><a href="Curriculo_Marco_Antonio_Mendes_Dos_Santos.docx" download="Curriculo_Marco_Antonio_Mendes_Dos_Santos.docx"> >BAIXAR CURRICULO<svg width="18px" style="color: white;" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512" siz><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg></a></p>
+            </div>
+        </div>
+    </main>
+
+    <!--ALA SERVICES-->
+
+    <header id="services" class="services_marco">
+
+        <div class="servicescont">
+          <div class="servicesblock">
+            <img src="282802_javascript_js_icon.png" alt="JavaScript">
+            <h2>JavaScript</h2>
+            <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web</p>
+          </div>
+          <div class="servicesblock">
+            <img src="3994346_code_coding_css_html_programming_icon.png" alt="HTML">
+            <h2>HTML</h2>
+            <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online.</p>
+          </div>
+          <div class="servicesblock">
+            <img src="65695_html_styling_css_css3_stylesheets_icon.png" alt="CSS">
+            <h2>CSS</h2>
+            <p>Cascading Style Sheets (abreviado CSS) é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web, aplicado diretamente nas tags HTML.</p>
+          </div>
+        </div>
+    </header>
+  
+
+
+
+
+
+    
+</body>
+</html>
